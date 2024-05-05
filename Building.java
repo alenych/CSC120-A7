@@ -67,7 +67,7 @@ public class Building {
     }
 
     public void goToFloor(int floorNum) {
-        if (this.activeFloor == -1) {
+        if (this.activeFloor == -1) { 
             throw new RuntimeException("You are not inside this Building. Must call enter() before navigating between floors.");
         }
         if (floorNum < 1 || floorNum > this.nFloors) {
