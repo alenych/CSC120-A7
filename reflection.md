@@ -3,32 +3,21 @@ Use this file to record your reflection on this assignment.
 - Which methods did you decide to `overload`, and why?
 
 1. Library:
-    - 1. Overloaded addTitle Method:
+    - 1. Overloaded checkOut method that allows two books to be checked out at once
 
-Purpose: Adds a book along with its initial availability status. This allows for direct control over a book's availability when it is first added, useful in scenarios where some books might be added already checked out or reserved.
 
-    - 2. Overloaded printCollection Method:
-
-Purpose: Allows printing either the entire collection or only those books that are currently available or checked out, providing more tailored output useful for both staff and patrons.
+    - 2. Overloaded returnBook method that allows two books to be returned at once
 
 2. Cafe:
 
-    - Overloaded Constructor:
+    - Overloaded coffee sale method that only offers black coffees, takes in coffee amount and cups only
 
-Purpose: Assume some default values for coffee ounces, sugar packets, creams, and cups but allow specifying the building details. This is useful when the internal setup is standard but the building details vary.
-
-    - Overloaded sellCoffee:
-
-Purpose: This method assumes no sugar or creams are needed, simplifying orders when customers want plain coffee. Provided a boolean switch for size, simplifying the interface for users who want either a standard or large cup without specifying exact ounces.
+    - Overloaded restock that only restocks coffee and cups
 
 3. House:
-    - 1. Overloaded Constructor:
+    - 1. Overloaded moveIn method that states the floor a resident moves to 
 
-Purpose: Allows creation of a House with a predefined list of residents. This is useful when initializing a house that isn't empty, simulating a real-world scenario where a house may already be occupied.
-
-    - 2. Overloaded moveIn Method:
-
-Purpose: Allows moving in multiple residents at once. This enhances usability by enabling batch operations, which is efficient when initializing or updating the house's state with multiple residents.
+    - 2. Overloaded moveOut method that states the floor a resident moves to
 
 
 
